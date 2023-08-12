@@ -1,12 +1,6 @@
 import React from 'react';
 import '../styles/Home.scss';
-import { Row } from 'react-bootstrap';
-import Carousel from 'react-bootstrap/Carousel';
-import Klima from '../assets/klima.jpg';
-import Mechanik from '../assets/mechanik.jpg';
-import Stacja from '../assets/stacja.jpg';
 import Hero from '../assets/hero.mp4';
-import Logo from '../assets/logo.png';
 
 const Home = () => {
   return (

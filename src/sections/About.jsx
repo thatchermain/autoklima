@@ -29,14 +29,14 @@ const About = () => {
 
             <p className='h4'>
               Posiadamy również Stację Kontroli Pojazdów, gdzie wykonujemy
-              przeglądy rejestracyjne a także ustawiamy zbieżność kół.
+              przeglądy rejestracyjne, a także ustawiamy zbieżność kół.
             </p>
           </Col>
         </Row>
         <Row className='g-5 py-5 text-center'>
           <h3>GODZINY OTWARCIA WARSZTATU I STACJI KONTROLI</h3>
-          <h2>Pon - Pt: 8:00 - 18:00</h2>
-          <h2>Soboty: 8:00 - 13:00</h2>
+          <h2>Pon. - Pt.: 8:00 - 18:00</h2>
+          <h2>Sob.: 8:00 - 13:00</h2>
         </Row>
       </div>
     </section>

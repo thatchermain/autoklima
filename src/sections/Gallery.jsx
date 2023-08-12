@@ -6,7 +6,6 @@ import ImageGallery from 'react-image-gallery';
 // import images from '../data/images';
 import One from '../assets/front1.jpg';
 import Two from '../assets/front2.jpg';
-import Three from '../assets/front3.jpg';
 import Four from '../assets/front4.jpg';
 import Five from '../assets/front5.jpg';
 import Six from '../assets/garage1.jpg';
