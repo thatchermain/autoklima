@@ -4,7 +4,7 @@ import '../styles/Contact.scss';
 
 const Contact = () => {
   return (
-    <section id='contact' className='py-5 mt-5 container-fluid contact'>
+    <section id='contact' className='py-5  container-fluid contact'>
       <div className='container '>
         <h1 className='section__title py-5 my-5 display-2'>Zapraszamy</h1>
         <Row className='py-5 d-flex justify-content-center gap-5'>

@@ -46,10 +46,10 @@ const Gallery = () => {
     },
   ];
   return (
-    <section className='py-5 my-5 gallery' id='gallery'>
-      <div className='gallery__container container'>
+    <section className='py-5 gallery' id='gallery'>
+      <div className='gallery__container container pb-5'>
         <h1 className='section__title py-5 display-2'>Galeria</h1>
-        <Row className='gy-5 d-flex justify-content-center m-auto gallery__wrapper'>
+        <Row className='gy-5 pb-5 d-flex justify-content-center m-auto gallery__wrapper'>
           <div className='slide-container slider'>
             <div className='slider__wrapper'>
               <ImageGallery items={images} className='slider__images' />
