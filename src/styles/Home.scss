@@ -1,0 +1,66 @@
+@import './variables';
+
+.home {
+  position: relative;
+  // top: 70px;
+  width: 100vw;
+  height: 100vh;
+
+  &__container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  &__info {
+    height: 100%;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 5rem;
+    width: fit-content;
+    &-logo {
+      max-width: 400px;
+    }
+    &-h1 {
+      font-size: clamp(60px, 20vw, 120px);
+      font-weight: 700;
+    }
+    &-services {
+      align-self: start;
+    }
+    &-service {
+      padding: 1rem 0;
+    }
+    // &-btn {
+    //   width: fit-content;
+    //   // padding: 0.5rem 2rem;
+    //   border-radius: 10px;
+    //   color: aliceblue;
+    //   background-color: transparent;
+    //   font-size: clamp(20px, 10vw, 30px);
+    //   border: none;
+    //   text-align: left;
+    //   &:hover,
+    //   :focus {
+    //     // background-color: #151b1b;
+    //     border: none;
+    //     border-bottom: 3px solid white;
+    //   }
+    // }
+  }
+}
+.hero {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  // filter: brightness(0.5);
+  z-index: -1;
+  // transform: rotateY(180deg);
+}

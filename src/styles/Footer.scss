@@ -1,0 +1,11 @@
+@import './variables';
+.footer {
+  background-color: #212121;
+  color: aliceblue;
+  &__link {
+    color: aliceblue;
+    &:hover {
+      color: $red;
+    }
+  }
+}

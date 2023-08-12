@@ -1,0 +1,49 @@
+@import './variables';
+.services {
+  position: relative;
+  padding: 70px 0;
+  background-image: (
+    linear-gradient(rgba(black, 0.7), rgba(0, 0, 0, 0.9)),
+    url('../assets/services.jpg')
+  );
+  background-size: cover;
+  background-attachment: fixed;
+  color: aliceblue;
+  &__photo {
+    width: 100%;
+    & img {
+      width: 100%;
+      border-radius: 10px;
+    }
+  }
+  &__tile {
+    width: 330px;
+    // height: fit-content;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 3px solid $red;
+    display: flex;
+  }
+  &__list {
+    list-style: none;
+    &__item {
+      padding: 5px 0;
+      position: relative;
+      &::before {
+        position: absolute;
+        content: '';
+        top: 5px;
+        left: -25px;
+      }
+      &-snow::before {
+        content: '❆';
+      }
+      &-check::before {
+        content: '✓';
+      }
+      &-tool::before {
+        content: '🛠';
+      }
+    }
+  }
+}

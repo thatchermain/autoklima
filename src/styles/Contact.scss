@@ -1,0 +1,17 @@
+@import './variables';
+.contact {
+  background-image: (url('../assets/hero3.jpg'));
+  background-size: cover;
+  background-attachment: fixed;
+  color: aliceblue;
+  &__tile {
+    padding: 2rem;
+    // border: 3px solid $red;
+    border-radius: 20px;
+  }
+  &__map {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+}

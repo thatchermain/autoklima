@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100vw;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+body {
+  // background-color: #29292a;
+  font-family: 'Exo', sans-serif;
+  height: 100%;
+}
+.section__title {
+  text-align: center;
+  font-weight: bold;
+}
