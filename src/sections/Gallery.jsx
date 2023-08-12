@@ -10,6 +10,8 @@ import Four from '../assets/front4.jpg';
 import Five from '../assets/front5.jpg';
 import Six from '../assets/garage1.jpg';
 import Seven from '../assets/garage2.jpg';
+import Eight from '../assets/truck1.jpg';
+import Nine from '../assets/truck2.jpg';
 import ThumbThree from '../assets/front33.jpg';
 import { Row } from 'react-bootstrap';
 
@@ -42,6 +44,14 @@ const Gallery = () => {
     {
       original: Seven,
       thumbnail: Seven,
+    },
+    {
+      original: Eight,
+      thumbnail: Eight,
+    },
+    {
+      original: Nine,
+      thumbnail: Nine,
     },
   ];
   return (
